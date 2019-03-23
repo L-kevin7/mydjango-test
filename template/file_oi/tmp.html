@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {%include header.html%}
+    <h1>变量输出</h1>
+    {{info.item1}}
+    {{list1.1}}
+    {%for i in list1%}
+        <p>i.item</p>
+    {%endfor%}
+    <!-- 返回html -->
+    <!-- 关闭转移 ：变量 | safe -->
+    {{html | safe}}
+    {{js |  safe}}
+
+    <!-- 过滤器
+    | 操作方法
+    | upper
+    | lower
+    | join 以 什么分割
+    | default 默认值
+    -->
+
+    <!-- 传参数 -->
+
+
+</body>
+</html>
