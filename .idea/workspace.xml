@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad834795-44a4-4361-86d8-eb033d027a08" name="Default Changelist" comment="" />
+    <list default="true" id="ad834795-44a4-4361-86d8-eb033d027a08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,17 +264,18 @@
       <updated>1553167065659</updated>
       <workItem from="1553167068267" duration="9209000" />
       <workItem from="1553216783649" duration="5939000" />
-      <workItem from="1553305689359" duration="992000" />
+      <workItem from="1553305689359" duration="1346000" />
+      <workItem from="1553393185839" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16140000" />
+    <option name="totallyTimeSpent" value="17269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19170243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,13 +361,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/fff.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/db/models/query.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14378">
