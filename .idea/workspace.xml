@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad834795-44a4-4361-86d8-eb033d027a08" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad834795-44a4-4361-86d8-eb033d027a08" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/file_test/templatetags/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="168">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -131,11 +129,6 @@
           <expand>
             <path>
               <item name="django_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django_admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django_admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django_admin" type="462c0819:PsiDirectoryNode" />
               <item name="django_admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,12 +252,12 @@
       <workItem from="1553167068267" duration="9209000" />
       <workItem from="1553216783649" duration="5939000" />
       <workItem from="1553305689359" duration="1346000" />
-      <workItem from="1553393185839" duration="1120000" />
+      <workItem from="1553393185839" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17614000" />
+    <option name="totallyTimeSpent" value="18708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -283,7 +276,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.48313254" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6554217" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -400,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file_test/templatetags/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="168">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
