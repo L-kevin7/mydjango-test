@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from . import views
+from django.views.generic import View
 
 urlpatterns = [
     url(r'^$', views.index),
@@ -26,4 +27,7 @@ urlpatterns = [
     url(r'^ssession/$', views.set_session),
     url(r'^gsession/$', views.get_session),
     url(r'^tmp$', views.spage),
+    url(r'^res/$',views.RegisterView.as_view(),name='res'),
+    url(r'demo/$',views.DemoGetView.as_view(),name='demo'),
+    url(r'demo2/$',views.DemoPostView.as_view(),name='demo2')
 ]

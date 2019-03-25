@@ -1,6 +1,10 @@
 from django.shortcuts import render,redirect
-from django.http import HttpResponse
+from django.http import HttpResponse,JsonResponse
 from django.urls import reverse
+
+# 类视图导包
+from django.views.generic import View
+from django.utils.decorators import method_decorator
 import time
 
 # Create your views here.
@@ -64,3 +68,42 @@ def spage(request):
     html = '<h1>天津包子</h1>'
     js = '<script>alert("great")</script>'
     return render(request,'file_oi/tmp.html',{'info':data,'list1':list1,'html':html,'js':js})
+
+
+# 类视图
+class RegisterView(View):
+    '类视图'
+
+    def get(self,request):
+        return HttpResponse('get请求')
+
+    def post(self,request):
+        return HttpResponse('post请求')
+
+
+def my_de(func):
+    def wrapper(request,*args,**kwargs):
+        print('自定义装饰器')
+        print('请求路径{}'.format(request.path))
+        return func(request,*args,**kwargs)
+    return wrapper
+
+# 类视图添加装饰器/1：指定方法
+@method_decorator(my_de,name='get')
+class DemoGetView(View):
+    def get(self,request):
+        print('get方法')
+        return HttpResponse('get,OK')
+    def post(self,request):
+        print('post方法')
+        return HttpResponse('post')
+
+# 类视图添加装饰器/2：单独添加
+class DemoPostView(View):
+    def get(self,request):
+        print('get方法')
+        return HttpResponse('get')
+
+    @method_decorator(my_de)
+    def post(self,request):
+        return HttpResponse('post')
